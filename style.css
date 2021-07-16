@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: transparent;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 5vw;
+    text-shadow: 6px 8px 13px #9B9B9B;
+    color: #fff;
+    text-align: center;
+    padding: 0 15px;
+}
+.btn{
+    display: block;
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    text-shadow: none;
+    padding: 3px 20px;
+    -webkit-border-radius: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Otomanopee One', sans-serif;
+    overflow: hidden;
+    
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 500px) {
+    section{
+        font-size: 5vw;
+    }
+}
+
+.back{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
